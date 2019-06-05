@@ -1,0 +1,7 @@
+.Story {
+    padding: 10px;
+}
+
+.Story>p {
+    max-width: 40em;
+}

@@ -1,0 +1,47 @@
+.storyWrapper {
+    padding: 10px;
+}
+
+.storyWrapper>p {
+    max-width: 40em;
+}
+
+code {
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 3px;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 0 0 0 0.5em;
+}
+
+code.-block {
+    display: block;
+    position: relative;
+    max-width: 40em;
+    border-radius: 6px;
+    padding: 6px;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+code.-block::before {
+    position: absolute;
+    top: -1.5em;
+    right: 0;
+    content: 'code';
+    background-color: rgb(255, 230, 184);
+    border: 1px solid silver;
+    padding: 3px;
+    font-size: 80%;
+}
+
+.componentExample {
+    margin-bottom: 1em;
+    width: 40em;
+    text-align: center;
+}
+
+h4 {
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    width: 40em;
+}
